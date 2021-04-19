@@ -6,8 +6,4 @@ public class Interessos {
         System.out.println("Interès compost després " + t + " anys: "+cinterest);
         System.out.println("Import després " + t + " anys: "+amount);
     }
-    public static void main(String args[]) {
-    	Interessos obj = new Interessos();
-    	obj.calcularInteressos(2000, 5, .08, 12);
-    }
 }
